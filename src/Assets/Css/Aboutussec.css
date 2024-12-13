@@ -1,0 +1,39 @@
+.aboutslider {
+  width: 38% !important;
+}
+
+.sliderproduct_image {
+  width: 170px !important;
+  height: 170px !important;
+}
+
+.aboutslide_sec {
+  margin-top: -210px !important;
+}
+
+.shadow_image {
+  filter: drop-shadow(10px 10px 15px rgba(128, 128, 128, 0.929)) !important;
+}
+
+.slider_imageaboutus {
+  height: 260px;
+}
+
+@media only screen and (max-width: 450px) {
+  .aboutslide_sec {
+    margin-top: -130px !important;
+  }
+
+  .aboutslider {
+    width: 50%;
+  }
+
+  .slider_imageaboutus {
+    height: 170px !important;
+  }
+
+  .choose_icon {
+    width: 90px;
+  }
+
+}

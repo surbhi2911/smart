@@ -1,0 +1,57 @@
+.footertittle{
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    width: fit-content;
+    font-weight: 600;
+}
+.footerbg{
+    /* background-image: url("../Image//footer\ image.png"); */
+    background-image: url("../Image//product_bg.jpg");
+    background-color: var(--darkgreen--);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hovergray{
+    color: var(--lightgray--);
+    transition: all 0.1s ease-in-out;
+}
+.hovergray:hover{
+    color: white;
+}
+.footericon {
+    border: 1.5px solid gray;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px 0px 12px 0px;
+    font-size: 19px;
+  }
+  
+  .footericon:hover {
+    color:var(--white--) !important;
+    border-radius: 50%;
+    border: 1.5px solid white;
+  }
+  
+  .facebookicon:hover {
+    background-color: #1877f2 !important;
+  }
+  
+  .instaicon:hover {
+    background-image: linear-gradient(
+      180deg,
+      #833ab4,
+      #c13584,
+      #e1306c,
+      #f77737,
+      #ffdc80
+    );
+  }
+  
+  .linkicon:hover {
+    background-color: #0077b5 !important;
+  }
+  
+  .twittericon:hover {
+    background-color: #1da1f2 !important;
+  }

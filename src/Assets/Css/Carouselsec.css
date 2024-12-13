@@ -1,0 +1,150 @@
+.carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel-slide {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease-in-out, visibility 0s linear 1s;
+    z-index: 0;
+}
+
+.carousel-slide.active {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s ease-in-out, visibility 0s linear 0s;
+    z-index: 1;
+}
+
+.carousel-slide.initial {
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+}
+
+.column {
+    background-repeat: no-repeat;
+    background-size: 500% 100%;
+    transform: translateY(-100%);
+}
+
+.carousel-slide.active .column.animate:nth-child(1),
+.carousel-slide.initial .column.animate:nth-child(1) {
+    animation: slide-down 1s ease-in-out forwards;
+    background-position: 0% 0;
+}
+
+.carousel-slide.active .column.animate:nth-child(2),
+.carousel-slide.initial .column.animate:nth-child(2) {
+    animation: slide-down 1s ease-in-out forwards 0.25s;
+    background-position: 25% 0;
+}
+
+.carousel-slide.active .column.animate:nth-child(3),
+.carousel-slide.initial .column.animate:nth-child(3) {
+    animation: slide-down 1s ease-in-out forwards 0.5s;
+    background-position: 50% 0;
+}
+
+.carousel-slide.active .column.animate:nth-child(4),
+.carousel-slide.initial .column.animate:nth-child(4) {
+    animation: slide-down 1s ease-in-out forwards 0.75s;
+    background-position: 75% 0;
+}
+
+.carousel-slide.active .column.animate:nth-child(5),
+.carousel-slide.initial .column.animate:nth-child(5) {
+    animation: slide-down 1s ease-in-out forwards 1s;
+    background-position: 100% 0;
+}
+
+@keyframes slide-down {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(0%); }
+}
+
+.carousel-content {
+    position: absolute;
+    letter-spacing: 2px;
+    border-left: 10px solid white;
+    top: 30%;
+    left:30%;
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(050%);
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+    transition-delay: 2s;
+}
+@media only screen and (max-width: 800px){
+.carousel-content {
+    top: 30% !important;
+    left:10%;
+   
+}
+}
+@media only screen and (max-width: 650px){
+.carousel-content {
+    top: 30% !important;
+    left:10%;
+    z-index: 2;
+    opacity: 0;
+    transform: translateY(-50%);
+    font-size: 25px !important;
+}
+.carousel{
+  height: 65vh !important;
+}
+}
+
+.carousel-content.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.carousel-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 10px;
+    background-color: white;
+}
+
+.carousel-content::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    height: 10px;
+    background-color: white;
+}
+
+.slide1 .column {
+    background-image: url("../Image/2023-03-smart-grocery-savings-blog.jpeg");
+    box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.589);
+    
+}
+
+.slide2 .column {
+    
+    background-image: url("https://img.freepik.com/free-photo/cheerful-little-girl-sitting-shopping-cart_171337-2382.jpg?t=st=1729754119~exp=1729757719~hmac=80fb44f0c0a1b3277e5f2d107a2068e75de987eb3a08c44b58bac16b8ed1b5f2&w=900");
+    box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.589);
+  
+}
+
+.slide3 .column {
+    background-image: url("https://img.freepik.com/free-photo/happy-family-with-child-shopping-cart-buying-food_171337-2353.jpg?t=st=1729754574~exp=1729758174~hmac=7abc8336b7f792b3f6206e9e8d342c055d99e816e0b749cd7dcfbfd53d0825ee&w=900");
+    box-shadow: inset 0px 0px 1500px 1000px rgba(0, 0, 0, 0.589);
+    
+}

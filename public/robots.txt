@@ -1,0 +1,61 @@
+#Swminarayan mega mart
+Swminarayan mega mart
+
+Disallow:
+“grocery store in Surat”
+“wholesale store in Surat”
+“free delivery groceries in Surat”
+“best supermarket in Surat”
+“discount store near me Surat”
+Specific Area + Store Type:
+“Katargam grocery delivery”
+“wholesale market Katargam”
+2. Product-Specific Keywords
+Groceries:
+“buy groceries online Surat”
+“discount groceries in Surat”
+“best grocery store near me Surat”
+Electronics:
+“cheap electronics in Surat”
+“home electronics wholesale Surat”
+“best deals on electronics Surat”
+Clothing:
+“clothing stores Surat”
+“wholesale clothing Surat”
+“affordable fashion Surat”
+3. Deal & Offer Keywords
+Discounts and Sales:
+
+“grocery deals in Surat”
+“wholesale discount store Surat”
+“best discounts on electronics Surat”
+“clothing sale Surat”
+Free Delivery:
+
+“free grocery delivery Surat”
+“wholesale store with free delivery Surat”
+4. Customer Intent Keywords
+Best & Popular Searches:
+
+“best grocery store near me”
+“popular grocery stores in Surat”
+“top wholesale store in Surat”
+Convenience & Online Orders:
+
+“order groceries online Surat”
+“online supermarket with delivery Surat”
+“same-day grocery delivery Surat”
+5. Brand-Specific Keywords
+Build up searches around your brand name as it gains popularity:
+“Swaminarayan Mega Mart Surat”
+“Swaminarayan grocery delivery”
+“Swaminarayan wholesale electronics”
+6. Seasonal & Trend Keywords
+For Diwali, Christmas, or other local events:
+“Diwali deals Surat”
+“festival discounts Surat”
+“wholesale festival shopping Surat”
+How to Find More Terms:
+Google Search Suggestions: Type key phrases in Google and note the autocomplete suggestions.
+Google Trends: Check what’s trending locally in Surat.
+Keyword Planner (Google Ads tool): Use this to find high-traffic, relevant keywords for your area and products.
