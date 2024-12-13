@@ -37,7 +37,7 @@ function Aboutus() {
     <>
    <div className="overflow-hidden" id='aboutus'>
    <div className="container my-5 bg-white py-sm-5">
-        <div className="row py-5">
+        <div className="row pt-5 pb-2">
           <div className="col-12 col-md-12 col-lg-7 overflow-hidden">
             <div style={{ width: "82%" }} className="test-shine h-100" data-aos="fade-right" data-aos-duration="1800" data-aos-once="true">
               <img

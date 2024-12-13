@@ -28,7 +28,7 @@ function Whychooseus() {
     return (
         <>
             <div className='overflow-hidden' id='whyus'>
-                <div className="container py-5 ">
+                <div className="container py-2">
                     <div className="text-center">
                         <div className='whytittle '>
                             <TittlesAll tittle="WHY CHOOSE US" />
@@ -37,7 +37,7 @@ function Whychooseus() {
                     <h2 className='text-center  sectittle' data-aos="fade-down"
                         data-aos-duration="1500" data-aos-once="true">Start your shopping journey today and experience the difference!
 
-                        </h2>
+                    </h2>
                     <div className="row">
                         <div className='col-12 col-md-6 col-lg-6 pt-5'>
                             <div className="h-100">
