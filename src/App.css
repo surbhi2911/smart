@@ -146,10 +146,6 @@
   z-index: 9998;
 }
 
-.navbar-toggler-icon {
-  background-color: white;
-}
-
 /* Header end */
 
 
@@ -161,6 +157,11 @@
   background: #e9f7ef;
   border-radius: 4px;
 }
+
+.navbar-toggler-icon {
+  background: none !important;
+}
+
 
 .offnav::-webkit-scrollbar-thumb {
   background-color: #28a745;

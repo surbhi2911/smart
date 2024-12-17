@@ -4,6 +4,7 @@ import { IoPersonCircle } from "react-icons/io5";
 import { MdOutlineSettings, MdWifiCalling3 } from "react-icons/md";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { TiShoppingCart } from "react-icons/ti";
+import { HiOutlineBars3 } from "react-icons/hi2";
 
 function Header() {
   return (
@@ -34,7 +35,7 @@ function Header() {
             data-bs-target="#offcanvasWithBothOptions"
             aria-controls="offcanvasWithBothOptions"
           >
-            <span className="navbar-toggler-icon fs-5 shadow"></span>
+            <span className="navbar-toggler-icon fs-5"><HiOutlineBars3 className="text-light fs-1" /></span>
           </button>
 
           <div className="collapse navbar-collapse lg_header" id="navbarNav">
@@ -78,7 +79,7 @@ function Header() {
                 </div>
               </li>
 
-             
+
 
               <li className="nav-item m-1">
                 <div class="sec h-100 mx-2 text-center">
@@ -93,7 +94,7 @@ function Header() {
                 </div>
               </li>
 
-              
+
 
               <li className="nav-item m-1">
                 <div class="sec h-100 mx-2 text-center">
@@ -181,10 +182,10 @@ function Header() {
             </span>{" "}
             Product
           </a>
-   
 
 
-    
+
+
           <a
             href="/#service"
             className="nav-link  fw-medium p-3 py-2 m-1 fs-5"
@@ -195,7 +196,7 @@ function Header() {
             </span>{" "}
             service
           </a>
-         
+
           <a
             href="/#contactus"
             className="nav-link  fw-medium p-3 py-2 m-1 fs-5"
